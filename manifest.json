@@ -1,0 +1,9 @@
+{
+  "name": "The Aaron App™",
+  "short_name": "Aaron App",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#17151a",
+  "theme_color": "#17151a",
+  "description": "A tiny daily reminder from Sarah."
+}

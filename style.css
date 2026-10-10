@@ -1,0 +1,75 @@
+* { box-sizing: border-box; }
+:root {
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", sans-serif;
+  color: #f7f3f0;
+  background: #17151a;
+}
+body {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 20% 0%, #3b2b38 0, transparent 42%),
+    radial-gradient(circle at 100% 100%, #29363a 0, transparent 40%),
+    #17151a;
+}
+.app {
+  width: min(100%, 560px);
+  margin: auto;
+  padding: max(28px, env(safe-area-inset-top)) 22px 32px;
+}
+header { padding: 18px 4px 28px; }
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: .16em;
+  font-size: .68rem;
+  opacity: .55;
+  margin-bottom: 8px;
+}
+h1 { margin: 0; font-size: 2rem; letter-spacing: -.04em; }
+.card {
+  border: 1px solid rgba(255,255,255,.12);
+  border-radius: 28px;
+  padding: 28px 24px;
+  min-height: 390px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: rgba(255,255,255,.07);
+  backdrop-filter: blur(18px);
+  box-shadow: 0 20px 60px rgba(0,0,0,.28);
+}
+.date { opacity: .55; font-size: .8rem; margin-bottom: 42px; }
+.label { font-size: .75rem; opacity: .55; text-transform: uppercase; letter-spacing: .12em; }
+.quote {
+  font-size: clamp(1.7rem, 7vw, 2.5rem);
+  line-height: 1.08;
+  letter-spacing: -.045em;
+  margin: 16px 0;
+}
+.author { opacity: .6; font-size: .9rem; }
+.category {
+  align-self: flex-start;
+  margin-top: 26px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(255,255,255,.09);
+  font-size: .7rem;
+  opacity: .75;
+}
+.actions {
+  display: flex;
+  gap: 10px;
+  margin: 14px 0 34px;
+}
+button {
+  border: 0;
+  border-radius: 16px;
+  padding: 14px 18px;
+  color: inherit;
+  background: rgba(255,255,255,.1);
+  font: inherit;
+  cursor: pointer;
+}
+#favBtn { min-width: 58px; font-size: 1.3rem; }
+.surprise-note { text-align: center; opacity: .45; font-size: .8rem; margin: 4px 0 0; }
+footer { text-align: center; opacity: .3; font-size: .7rem; margin-top: 42px; }

@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#17151a">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+  <title>The Aaron App™</title>
+</head>
+<body>
+  <main class="app">
+    <header>
+      <div class="eyebrow">A tiny daily reminder</div>
+      <h1>The Aaron App™</h1>
+    </header>
+
+    <section class="card">
+      <div class="date" id="date"></div>
+      <div class="label">Today's message</div>
+      <div class="quote" id="quote"></div>
+      <div class="author">— Sarah</div>
+      <div class="category" id="category"></div>
+    </section>
+
+    <div class="actions">
+      <button id="favBtn" aria-label="Favourite this message" title="Save today's message">♡</button>
+    </div>
+    <p class="surprise-note">One little message a day. The rest are surprises. ♡</p>
+
+    <footer>Made with questionable amounts of affection.</footer>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
