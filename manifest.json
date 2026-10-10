@@ -1,9 +1,19 @@
 {
-  "name": "The Aaron App™",
-  "short_name": "Aaron App",
-  "start_url": "./",
+  "id": "/The-Aaron-App/",
+  "name": "The Aaron App",
+  "short_name": "Aaron",
+  "description": "A little daily reminder just for Aaron.",
+  "start_url": "/The-Aaron-App/",
+  "scope": "/The-Aaron-App/",
   "display": "standalone",
-  "background_color": "#17151a",
-  "theme_color": "#17151a",
-  "description": "A tiny daily reminder from Sarah."
+  "background_color": "#10182c",
+  "theme_color": "#10182c",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
 }
