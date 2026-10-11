@@ -73,7 +73,7 @@ const quotes = [
   {text:"", category:""},
   {text:"", category:""},
   {text:"", category:""},
-  {text:"Do you believe in Soul Mates, because I am starting to", category:"Romantic"},
+  {text:"Do you believe in Soul Mates, because I am starting to", category:"Romantic"}
 ];
 
 const today = new Date();
